@@ -1,8 +1,0 @@
-def isPalindrome(x):
-return x == x[::-1]
-x = input("Please enter the string x:")
-y = isPalindrome(x)
-if y:
-print("Yes,The string is Palindrome ")
-else:
-print("No,The string is not a Palindrome")
